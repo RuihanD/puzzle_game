@@ -1,0 +1,7 @@
+The puzzle game has 3 classes——Game, PlayArea and Leader, which was divided according to the 3 different rectangle play area.
+
+The Game class can control the game: including reset, load, and quit the game. At the same time, the moves also be recorded and appeared in this class.
+
+The PlayArea class is the play area that could add the images to this area and move them to the right places. This is the main class that could have the most interactions with the player.
+
+The Leader class is mainly for logging all the winner information, including the moves and the player name. And also the image of this leaderboard can also change according to the game, so there is some connection with other classes. 
